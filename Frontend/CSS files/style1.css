@@ -26,50 +26,118 @@ body {
     );
     border-radius:2rem;
     backdrop-filter: blur(2rem);
-    z-index: 3;
+    z-index: 5;
+}
+.circle1,
+.circle2,
+.circle3 {
+    z-index: 4;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+    background: linear-gradient(
+        to right bottom, 
+        rgba(255,255,255,.7),
+        rgba(0,0,0,0.3)
+    );
+    background:radial-gradient(
+        rgba(255,255,255),
+        rgba(150,150,150),
+        rgba(52,52,52),
+        rgba(0,0,0,)
+    );
+    backdrop-filter: blur(2rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("C:\\xampp\\htdocs\\Projects\\CSC443X-WebProject-Fall2022\\Frontend\\Assets\\noise.png");
+
 }
 
 .circle1 {
-    z-index: 2;
-
+   top: 10%;
+   left: 5%;
 }
 
 .circle2 {
-    z-index: 2;
+   bottom: 0%;
+   right: 35%;
 }
 
 .circle3 {
-    z-index: 2;
+    top: 2%;
+    right: 10%;
+
 }
 
-.shape-container {
-    z-index: 1;
+.shape-container1,
+.shape-container2,
+.shape-container3 {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: absolute;
+}
+.shape-container1 {
+    top: 10%;
+    left: 5%;
+}
+.shape-container2 {
+    bottom: 0%;
+    right: 35%;
+}
+.shape-container3 {
+    top: 2%;
+    right: 10%;
+}
+
+
+.shape1,
+.shape2,
+.shape3,
+.shape4,
+.shape5,
+.shape6,
+.shape7 {
+    z-index: 2;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    backdrop-filter: blur(2rem);
+    
 }
 
 .shape1 {
+    background: #671FDC;
     
 }
 
 .shape2 {
-
+    background: #A023ED;
 }
 
 .shape3 {
-
-}
+    background: #B22536;
+}   
 
 .shape4 {
-
+    background: #2368ED;
 }
 
 .shape5 {
-
+    background: #FF001F;
 }
 
 .shape6 {
-
+    background: #08A80E;
 }
 
 .shape7 {
-
+    background: #07000B;
 }
