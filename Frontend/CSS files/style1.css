@@ -34,14 +34,11 @@ body {
             justify-content: center;
             align-items: center;
             text-align: center;
-           
             border-radius: 2rem 0 0 2rem;
         }
 
             .logo-container {
                 padding: 1rem;
-                
-                
             }
 
         .right-container {
@@ -50,7 +47,7 @@ body {
             display: flex;
             padding: 1rem;
             flex-direction: column;
-            justify-content:space-around;
+            justify-content:space-evenly;
             align-items: center;
             text-align: center;
             background: white;
@@ -59,18 +56,14 @@ body {
                 rgba(18, 0, 53, 0.7),
                 rgba(56, 56, 56, 0.3)
             );
-            border-radius:2rem ;
+            border-radius:0 2rem 2rem 0;
+            backdrop-filter: blur(2rem);    
         }
+
             .text-container {
                 justify-content:center;
                 align-items:center;
                 padding: 1rem;
-                background: white;
-                background: linear-gradient(
-                    to right bottom, 
-                    rgba(255, 255, 255, 0.1),
-                    rgba(255, 255, 255, 0)
-                );
                 border-radius: 2rem;
             }
 
@@ -78,19 +71,42 @@ body {
                     font-family: 'Rubik Glitch', cursive;
                     font-size: 5rem ;
                 }
-            
+
             .info-container {
                 padding: 1rem;
+                justify-content: center;
+                align-items: center;
             }
-            
-                .info-container h1{
+
+                .info-container h1 {
                     padding: 1rem;
-                    
-                    
+                    font-size: 2.5rem;
+                }
+            
+            .signup-container{
+                padding: 1rem;
+                justify-content: center;
+                align-items: center;
+            }
+                .signup-container a {
+                    color: #caa9ff;
+                    text-decoration: none;
                 }
                 
-                .info-container h2{
+                .info-container h2 {
                     padding: 1rem;
+                    font-size: 1.5rem;
+                }
+
+                .signup-container :hover {
+                    padding: 1rem;
+                    background: white;
+                    background: linear-gradient(
+                        to right bottom, 
+                        rgba(255, 255, 255, 0.1),
+                        rgba(255, 255, 255, 0)
+                    );
+                    border-radius: 2rem;
                 }
 
 .circle1,
