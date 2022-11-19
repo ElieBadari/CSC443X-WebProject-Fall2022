@@ -7,7 +7,7 @@ body {
     justify-content: center;  
 }
 
-.signup-container {
+.signin-container {
     padding: 1rem;
     min-height: 80vh;
     width: 60%;
@@ -52,15 +52,14 @@ body {
     color: #caa9ff;
 }
 .password,
-.username,
-.email {
+.username {
     border-radius: 2rem;
     border: .1rem solid;
     border-color: #caa9ff;
     display: flex;
     width: 100%;
 }
-button.signup-btn {
+button.signin-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +74,7 @@ button.signup-btn {
     width: 70%;
 }
 a{
+    font-size: 1.5rem;
     text-decoration: none;
     color: #caa9ff;
 }
-
