@@ -20,9 +20,8 @@ body {
     border-radius:2rem;
     z-index: 5;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    text-align: center;
     flex-direction: column;
     color: #caa9ff;
 }
@@ -31,8 +30,6 @@ body {
     padding: 1rem;
     font-family: 'Rubik Glitch', cursive;
     font-size: 5rem ;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -40,9 +37,9 @@ body {
     display: flex;
     flex-direction: column;
     padding: 1rem;
-    min-height: 40vh;
+    min-height: 50vh;
     width: 50%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
@@ -55,7 +52,8 @@ body {
     color: #caa9ff;
 }
 .password,
-.username {
+.username,
+.email {
     border-radius: 2rem;
     border: .1rem solid;
     border-color: #caa9ff;
@@ -70,7 +68,13 @@ button.signup-btn {
     border:none;
     border-radius: 2rem;
     background-color: #caa9ff;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 1.5rem;
     color: white;
     padding: 1rem;
     width: 70%;
+}
+a{
+    text-decoration: none;
+    color: #caa9ff;
 }
