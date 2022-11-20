@@ -37,16 +37,25 @@ body{
         rgba(0, 0, 0, 0.2)
     );
 }
+    .title-container {
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+        color: #caa9ff;
+        flex: 3;
+    }
     .dashboard h1 {
         padding: 1rem;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex: 3;
         color: #caa9ff;
         font-family: 'Rubik Glitch', cursive;
         font-size: 3rem;
     }
+
     .home-container,
     .search-container,
     .profile-container,
@@ -98,5 +107,5 @@ body{
     }
 
 .post-container {
-    flex: 2;
+    flex: 4;
 }
