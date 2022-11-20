@@ -29,6 +29,7 @@ body{
 .dashboard {
     display: flex;
     flex: 1;
+    min-height: 100vh;
     flex-direction: column;
     border-radius: 0 2rem 2rem 0;
     background: linear-gradient(
@@ -36,6 +37,7 @@ body{
         rgba(0,0,0,.9),
         rgba(0, 0, 0, 0.2)
     );
+    
 }
     .title-container {
         padding: 1rem;
@@ -108,4 +110,78 @@ body{
 
 .post-container {
     flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
+    .cards-container {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: 50%;
+        min-height: 100vh;
+        padding: 1rem 0;
+        overflow: auto;
+        
+    }
+        .card {
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(
+                to right bottom, 
+                rgba(0,0,0,.9),
+                rgba(0, 0, 0, 0.2)
+            );
+            width: 100%;
+        }
+            .user-container {
+                display: flex;
+                flex-direction: row;
+                padding: 1rem 0 1rem 0;
+                width: 100%;
+                height: 100%;
+                
+            }
+                .user-img-container {
+                    flex: 1;
+                    padding: 0 1rem 0 1rem;
+                }
+                    .user-img-container img {
+                        width: 100%;
+                        height: 100%;
+                        
+                    }
+                .user-container h3 {
+                    flex: 4;
+                    text-align: start;
+                    align-items: center;
+                    padding: 0 1rem 0 1rem;
+                }   
+            .img-container {
+                display: flex;
+                width: 100%;
+                height: 100%;
+            }
+            .img-container img {
+                width: 100%;
+                height: 100%;
+            }
+            .interact-container {
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                width: 100%;
+            }
+                .interact-container img{
+                    padding: 0 1rem;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    
+                }
+            .comment-section{
+                display: flex;
+            }
