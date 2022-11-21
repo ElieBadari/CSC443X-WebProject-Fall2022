@@ -58,6 +58,7 @@ body{
     .search-container,
     .profile-container,
     .likes-container,
+    .create-post-container,
     .comments-container,
     .logout-container {
         padding: 1rem;
@@ -72,6 +73,7 @@ body{
         .search-container img,
         .profile-container img,
         .likes-container img,
+        .create-post-container img,
         .comments-container img,
         .logout-container img {
             padding: 0 1rem;
@@ -80,6 +82,7 @@ body{
         .search-container h3,
         .profile-container h3,
         .likes-container h3,
+        .create-post-container h3,
         .comments-container h3,
         .logout-container h3 {
             padding: 0 1rem;
@@ -98,6 +101,9 @@ body{
         flex: 1;
     }
     .comments-container {
+        flex: 1;
+    }
+    .create-post-container {
         flex: 1;
     }
     .logout-container {
