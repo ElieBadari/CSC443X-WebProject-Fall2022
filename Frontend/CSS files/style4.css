@@ -110,6 +110,12 @@ body{
         flex: 3;
     }
 
+    .profile-container a {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        color: #caa9ff;
+    }
 .post-container {
     flex: 4;
     display: flex;
@@ -204,3 +210,18 @@ body{
                 .caption-container p {
                     padding: 1rem;
                 }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .profile-container:hover {
+        background: linear-gradient(
+            rgba(255,255,255,.2),
+            rgba(255,255,255,.1)
+        );
+        opacity: .7;
+        border-radius: 2rem;
+        
+
+    }
